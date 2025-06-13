@@ -31,6 +31,7 @@ export async function GET() {
       splashBackgroundColor: process.env.NEXT_PUBLIC_SPLASH_BACKGROUND_COLOR,
       homeUrl: URL,
       webhookUrl: `${URL}/api/webhook`,
+      buttonTitle: `Read Chapter`,
       primaryCategory: process.env.NEXT_PUBLIC_APP_PRIMARY_CATEGORY,
       tags: [],
       heroImageUrl: process.env.NEXT_PUBLIC_APP_HERO_IMAGE,

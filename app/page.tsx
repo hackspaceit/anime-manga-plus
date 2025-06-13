@@ -38,12 +38,12 @@ export default function App() {
         </header>
 
         <main className="flex-1">
-         
+         <center>
 <iframe width="100%"
                         height="690"
                         src=
-"https://mangaplus.shueisha.co.jp/updates" >
-                </iframe>
+"https://mangaplus.shueisha.co.jp/" >
+                </iframe></center>
 
         </main>
 
