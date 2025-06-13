@@ -22,16 +22,15 @@ export default function App() {
   }, [setFrameReady, isFrameReady]);
 
 
-
-    
+  
 
   return (
     <div className="flex flex-col min-h-screen font-sans text-[var(--app-foreground)] mini-app-theme from-[var(--app-background)] to-[var(--app-gray)]">
       <div className="w-full max-w-md mx-auto px-0 py-3">
-        <header className="flex justify-between items-center mb-3 h-11">
+        <header className="flex justify-between items-center mb-13 h-50">
           <div>
-            <div className="flex items-center space-x-2">
-             
+            <div className="flex items-center ">
+         
             </div>
           </div>
         
@@ -39,8 +38,9 @@ export default function App() {
 
         <main className="flex-1">
          <center>
+          
 <iframe width="100%"
-                        height="690"
+                        height="720"
                         src=
 "https://mangaplus.shueisha.co.jp/" >
                 </iframe></center>
