@@ -41,7 +41,7 @@ export default function App() {
           
 <iframe width="100%" height="840" allow="fullscreen"
                         src=
-"https://mangaplus.shueisha.co.jp/" >
+"https://www.anime-planet.com/manga/read-online/" >
                 </iframe></center>
 
         </main>
