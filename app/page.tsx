@@ -39,7 +39,7 @@ export default function App() {
         <main className="flex-1">
          <center>
           
-<iframe width="100%" height="890" allow="fullscreen"
+<iframe width="100%" height="840" allow="fullscreen"
                         src=
 "https://mangaplus.shueisha.co.jp/" >
                 </iframe></center>
