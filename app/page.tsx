@@ -41,7 +41,7 @@ export default function App() {
           
 <iframe width="100%" height="840" allow="fullscreen"
                         src=
-"https://www.anime-planet.com/manga/read-online/" >
+"https://www.webtoons.com/" >
                 </iframe></center>
 
         </main>
