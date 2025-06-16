@@ -3,7 +3,9 @@ import "@coinbase/onchainkit/styles.css";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Providers } from "./providers";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1.0,
@@ -44,6 +46,21 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-background">
         <Providers>{children}</Providers>
+         <br></br>
+  <div className="container">
+        <nav className="bottom-nav">
+            <a href="#home">
+                <FontAwesomeIcon icon={["fas", "coffee"]} />Home
+            </a>
+            <a href="https://mangaplus.shueisha.co.jp/featured">
+                <i className="fas fa-graduation-cap icon"></i>Hot
+            </a>
+            <a href="https://farcaster.xyz/~/channel/anime-manga">
+                <i className="fas fa-briefcase icon"></i>Channel
+            </a>
+            
+        </nav>
+    </div>     
       </body>
     </html>
   );

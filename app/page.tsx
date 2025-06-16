@@ -4,11 +4,10 @@ import {
   useMiniKit,
   
 } from "@coinbase/onchainkit/minikit";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import { useEffect } from "react";
 import "./theme.css";
-<link rel="stylesheet" href=
-"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+
 export default function App() {
   const { setFrameReady, isFrameReady, } = useMiniKit();
   
@@ -49,21 +48,7 @@ export default function App() {
 
         </main>
 
-  <br></br>
-  <div className="container">
-        <nav className="bottom-nav">
-            <a href="#home">
-                <FontAwesomeIcon icon={["fas", "coffee"]} />Home
-            </a>
-            <a href="https://mangaplus.shueisha.co.jp/featured">
-                <i className="fas fa-graduation-cap icon"></i>Hot
-            </a>
-            <a href="https://farcaster.xyz/~/channel/anime-manga">
-                <i className="fas fa-briefcase icon"></i>Channel
-            </a>
-            
-        </nav>
-    </div>            
+        
           
       </div>
     </div>
