@@ -4,10 +4,11 @@ import {
   useMiniKit,
   
 } from "@coinbase/onchainkit/minikit";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useEffect } from "react";
 import "./theme.css";
-
+<link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
 export default function App() {
   const { setFrameReady, isFrameReady, } = useMiniKit();
   
@@ -42,35 +43,27 @@ export default function App() {
 <iframe width="100%" height="840" allow="fullscreen"
                         src=
 "https://mangaplus.shueisha.co.jp/updates" >
-                </iframe><br></br>
-  <div className="container">
-        <nav className="bottom-nav">
-            <a href="#home">
-                <i className="fas fa-home icon"></i>Home
-            </a>
-            <a href="#courses">
-                <i className="fas fa-graduation-cap icon"></i>Courses
-            </a>
-            <a href="#jobs">
-                <i className="fas fa-briefcase icon"></i>Jobs
-            </a>
-            <a href="#news">
-                <i className="fas fa-newspaper icon"></i>News
-            </a>
-            <a href="#contact">
-                <i className="fas fa-envelope icon"></i>Contact
-            </a>
-            <a href="#about">
-                <i className="fas fa-info-circle icon"></i>About
-            </a>
-        </nav>
-    </div>              
+                </iframe>  
                 
                 </center>
 
         </main>
 
-  
+  <br></br>
+  <div className="container">
+        <nav className="bottom-nav">
+            <a href="#home">
+                <FontAwesomeIcon icon={["fas", "coffee"]} />Home
+            </a>
+            <a href="https://mangaplus.shueisha.co.jp/featured">
+                <i className="fas fa-graduation-cap icon"></i>Hot
+            </a>
+            <a href="https://farcaster.xyz/~/channel/anime-manga">
+                <i className="fas fa-briefcase icon"></i>Channel
+            </a>
+            
+        </nav>
+    </div>            
           
       </div>
     </div>
