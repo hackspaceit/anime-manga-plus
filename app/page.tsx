@@ -41,7 +41,7 @@ export default function App() {
           
 <iframe width="100%" height="840" allow="fullscreen"
                         src=
-"https://www.webtoons.com/" >
+"https://mangaplus.shueisha.co.jp/updates" >
                 </iframe></center>
 
         </main>
